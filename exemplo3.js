@@ -10,10 +10,10 @@
       const media = ((nota1+nota2+nota3)/3).toFixed(1)
       if (media >=7){
           return `média = ${media} : aprovada`
-      } else if (media >=5 || media <7){
+      } else if (media >=5 && media <7){
           return `média = ${media} : recuperação`
       } else{
           return `média = ${media} : reprovada`
       }
 
-  }console.log (boletim(10,9,9))
+  }console.log (boletim(5,6,7))
